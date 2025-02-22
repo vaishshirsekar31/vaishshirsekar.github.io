@@ -1,0 +1,126 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #005f73;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hierarchical Styling for Subheadings */
+h2 {
+    color: #0a9396;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Styling for Lists */
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Flexbox Container for Sections */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Anchor Tag Styling */
+a {
+    color: #005f73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Visited link styling */
+a:visited {
+    color: #9b5de5;
+}
+
+/* Hover State for Links */
+a:hover {
+    color: #ee9b00;
+    text-decoration: underline;
+}
+
+/* Active State for Links */
+a:active {
+    color: #bb3e03;
+}
+
+/* Contact Info Section Styling */
+.contact-info {
+    text-align: center;
+}
+
+/* Email and LinkedIn Link Styling */
+.contact-info a {
+    color: #0a9396;
+}
+
+.contact-info a:hover {
+    color: #94d2bd;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+}
